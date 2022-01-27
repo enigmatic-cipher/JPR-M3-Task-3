@@ -4,10 +4,10 @@ Input-> [1,2,3,4,5,6]
 Output-> 2Evens : false
 """
 
-ls = [1,2,3,4,5,6]
-ln = len(ls)
-even = 0
-for i in range(0,ln):
-  e = ls[i]
-  even = (e%2==0)
-  
+ls = [2,4,5,7,8,9,10]
+for i in ls:
+  e = (i%2==0)
+if (i==e) and ((i+1)==e):
+  print("2Even: True")
+else:
+  print("2Even: False")
